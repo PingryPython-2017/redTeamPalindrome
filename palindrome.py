@@ -1,3 +1,4 @@
+### Function
 def is_palindrome(string):
 	"""Takes in a string and returns True if the string is a palindrome"""
 	if len(string) <= 1:
@@ -8,7 +9,6 @@ def is_palindrome(string):
 		return False
 
 ### Tests
-
 print("tacocat is a plandrome: {}. ".format(is_palindrome("tacocat")))
 print("racecar is a plandrome: {}. ".format(is_palindrome("racecar")))
 print(" is a plandrome: {}. ".format(is_palindrome("")))
@@ -16,3 +16,7 @@ print("qwer is a plandrome: {}. ".format(is_palindrome("qwer")))
 print("e is a plandrome: {}. ".format(is_palindrome("e")))
 print("uu is a plandrome: {}. ".format(is_palindrome("uu")))
 print("ho is a plandrome: {}. ".format(is_palindrome("ho")))
+
+### Main Program
+word = input("Give me a word, and I will tell you if it is a palindrome. ")
+print('"{}" is a palindrom: {}'. format(word,is_palindrome(word)))
