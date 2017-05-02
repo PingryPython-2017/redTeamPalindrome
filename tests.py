@@ -9,6 +9,3 @@ print("e is a palindrome: {}. ".format(is_palindrome("e")))
 print("uu is a palindrome: {}. ".format(is_palindrome("uu")))
 print("ho is a palindrome: {}. ".format(is_palindrome("ho")))
 
-### Main Program
-word = input("Give me a word, and I will tell you if it is a palindrome. ")
-print('"{}" is a palindrom: {}'. format(word,is_palindrome(word)))s
